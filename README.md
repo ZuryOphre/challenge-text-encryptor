@@ -24,6 +24,8 @@ To copy the result to the clipboard, click the "Copy" button.
 Optionally, dark mode can be turned on or off by clicking the mode switch.
 Developed by Zury Martinez. All rights reserved © 2023
 
-you can test the application on GITHUB PAGES at the following address:
+you can test the application on GITHUB PAGES at the following address or by scanning the QR code:
 
 https://zuryophre.github.io/challenge-text-encryptor/
+
+![QR code](/src/qrcode-generado.png)
