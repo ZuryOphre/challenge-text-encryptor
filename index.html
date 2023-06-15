@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="titulo">Encriptador de Texto</h1>
+    <label class="modo-switch" id="modo-btn">
+      <input type="checkbox" id="dark-mode-toggle">
+      <span class="modo-slider"></span>
+    </label>    
+  </header>
+
+  <main class="main">
+    <div class="boxes">
+      <div class="box">
+        <form id="form-box">
+          <label for="input-texto">Ingresar texto:</label>
+          <input type="text" id="input-texto" class="text-input" required>
+          <button type="submit" id="btn-cripto" class="btn">Encriptar</button>
+          <button type="submit" id="btn-descripto" class="btn">Desencriptar</button>
+        </form>
+      </div>
+      <div class="box" id="resultado">
+        <h2 id="resultado-titulo"></h2>
+        <input type="text" id="msg" class="text-input" readonly>
+        <button id="btn-copiar" class="btn">Copiar</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="sidebar">
+    <a href="https://github.com/ZuryOphre" target="_blank" rel="noopener noreferrer">
+      <img src="" alt="GitHub" class="icon">
+    </a>
+    <a href="https://www.linkedin.com/in/zury-martinez/" target="_blank" rel="noopener noreferrer">
+      <img src="" alt="LinkedIn" class="icon">
+    </a>
+  </div>
+  
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Development by Zury Martinez</p>
+      <p>All rights reserved &copy; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
